@@ -22,7 +22,7 @@ export class SidePanel extends Component<{}, {}> {
     return (
       <div className="side-panel">
         <div className="start">
-          <span class="material-icons">add</span>
+          <span className="material-icons">add</span>
           <span>Start new</span>
         </div>
         <div className="item-container">
