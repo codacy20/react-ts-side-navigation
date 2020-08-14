@@ -18,7 +18,7 @@ export class Nav extends Component<data, {}> {
   render() {
     return (
       <div className="item">
-        <span className="material-icons">{this.props.icon}</span>
+        <span className="material-icons material-icons-outlined">{this.props.icon}</span>
         <span>{this.props.name}</span>
       </div>
     );
