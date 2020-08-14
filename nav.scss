@@ -1,0 +1,17 @@
+.item{
+  padding: 20px 0 20px 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  span{
+    font-size:28px;
+  }
+  span:last-child{
+      margin-left: 15px;
+      font-size: 16px;
+  }
+}
+.item:hover{
+  background: #F5FAFF;
+  border-radius: 5px;
+}
